@@ -70,9 +70,7 @@
      * @return año de nacimiento de la persona
      */
     public int calcularAnioNacimiento() {
-        int anioActual = 2023;
+        int anioActual = 2020;
         return anioActual - this.edad;
     }
-
-
 }
