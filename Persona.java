@@ -60,7 +60,7 @@
      * @return saludo junto a nombre del usuario y su edad
      */
     public void saludar(){
-        System.out.println("Hola, soy "+this.nombre+" y tengo "+this.edad + " años");
+        System.out.println("Hola, mi nombre es: "+this.nombre+" y tengo: "+this.edad + " años");
     }
 
     /**
@@ -70,11 +70,7 @@
      * @return año de nacimiento de la persona
      */
     public int calcularAnioNacimiento() {
-<<<<<<< HEAD
-        int anioActual = 2024;
-=======
         int anioActual = 2020;
->>>>>>> 9fd42d8a5f693403dc45659774b5d1ea1ea052e7
         return anioActual - this.edad;
     }
 }
