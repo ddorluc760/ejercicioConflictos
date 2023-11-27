@@ -60,7 +60,7 @@
      * @return saludo junto a nombre del usuario y su edad
      */
     public void saludar(){
-        System.out.println("Hola, mi nombre es: "+this.nombre+" y tengo: "+this.edad + " años");
+        System.out.println("Hola, me llamo mi nombre: "+this.nombre+" y tengo "+this.edad + " años");
     }
 
     /**
